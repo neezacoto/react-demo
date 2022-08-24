@@ -1,0 +1,26 @@
+#blue-or-red-container {
+    display: flex;
+    gap: 1rem;
+    .button-container {
+        display: flex;
+        font-size: 1.1rem;
+        font-weight: bold;
+
+        border: 1px solid black;
+        border-radius: 25%;
+        padding: .5rem;
+        cursor:pointer;
+
+        .blue{
+            color: cornflowerblue;
+        }
+
+        .red{
+            color:crimson;
+        }
+
+        div:last-child {
+            color: black
+        }
+    }
+}
